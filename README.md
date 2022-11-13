@@ -1,35 +1,14 @@
-# AWS <TODO_EXPANDED> Terraform module
+# AWS Teleport Terraform module
 
-Terraform module which creates AWS <TODO_EXPANDED> resources.
+Terraform module which creates AWS Teleport resources.
 
-<!--START--->
-## 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-After creating a new repository from the template and cloning locally:
-
-```bash
-./eject.sh <module-name>
-```
-
-Where `<module-name>` can be extracted from the repository name using the pattern `terraform-aws-<module-name>`.
-
-For example, if the repository name is `terraform-aws-s3-bucket`, then the module name is `s3-bucket` and the associated eject command is:
-
-```bash
-./eject.sh s3-bucket
-```
-
-Note: this message will self destruct upon ejection!
-
-## 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-<!---END--->
 ## Usage
 
-See [`examples`](https://github.com/clowdhaus/terraform-aws-<TODO>/tree/main/examples) directory for working examples to reference:
+See [`examples`](https://github.com/gpdenny/terraform-aws-teleport/tree/main/examples) directory for working examples to reference:
 
 ```hcl
-module "<TODO_UNDER>" {
-  source = "clowdhaus/<TODO>/aws"
+module "teleport" {
+  source = "gpdenny/teleport/aws"
 
   tags = {
     Terraform   = "true"
@@ -40,9 +19,9 @@ module "<TODO_UNDER>" {
 
 ## Examples
 
-Examples codified under the [`examples`](https://github.com/clowdhaus/terraform-aws-<TODO>/tree/main/examples) are intended to give users references for how to use the module(s) as well as testing/validating changes to the source code of the module. If contributing to the project, please be sure to make any appropriate updates to the relevant examples to allow maintainers to test your changes and to keep the examples up to date for users. Thank you!
+Examples codified under the [`examples`](https://github.com/gpdenny/terraform-aws-teleport/tree/main/examples) are intended to give users references for how to use the module(s) as well as testing/validating changes to the source code of the module. If contributing to the project, please be sure to make any appropriate updates to the relevant examples to allow maintainers to test your changes and to keep the examples up to date for users. Thank you!
 
-- [Complete](https://github.com/clowdhaus/terraform-aws-<TODO>/tree/main/examples/complete)
+- [Complete](https://github.com/gpdenny/terraform-aws-teleport/tree/main/examples/complete)
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
@@ -75,4 +54,4 @@ No outputs.
 
 ## License
 
-Apache-2.0 Licensed. See [LICENSE](https://github.com/clowdhaus/terraform-aws-<TODO>/blob/main/LICENSE).
+Apache-2.0 Licensed. See [LICENSE](https://github.com/gpdenny/terraform-aws-teleport/blob/main/LICENSE).

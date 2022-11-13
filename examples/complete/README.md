@@ -1,4 +1,4 @@
-# Complete AWS <TODO_EXPANDED> Example
+# Complete AWS Teleport Example
 
 Configuration in this directory creates:
 
@@ -32,8 +32,8 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_<TODO_UNDER>"></a> [<TODO\_UNDER>](#module\_<TODO\_UNDER>) | ../.. | n/a |
-| <a name="module_<TODO_UNDER>_disabled"></a> [<TODO\_UNDER>\_disabled](#module\_<TODO\_UNDER>\_disabled) | ../.. | n/a |
+| <a name="module_teleport"></a> [<TODO\_UNDER>](#module\_<TODO\_UNDER>) | ../.. | n/a |
+| <a name="module_teleport_disabled"></a> [<TODO\_UNDER>\_disabled](#module\_<TODO\_UNDER>\_disabled) | ../.. | n/a |
 | <a name="module_vpc"></a> [vpc](#module\_vpc) | terraform-aws-modules/vpc/aws | ~> 3.0 |
 
 ## Resources
@@ -49,4 +49,4 @@ No inputs.
 No outputs.
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
-Apache-2.0 Licensed. See [LICENSE](https://github.com/clowdhaus/terraform-aws-<TODO>/blob/main/LICENSE).
+Apache-2.0 Licensed. See [LICENSE](https://github.com/gpdenny/terraform-aws-teleport/blob/main/LICENSE).

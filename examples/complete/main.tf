@@ -4,26 +4,26 @@ provider "aws" {
 
 locals {
   region = "us-east-1"
-  name   = "<TODO>-ex-${replace(basename(path.cwd), "_", "-")}"
+  name   = "teleport-ex-${replace(basename(path.cwd), "_", "-")}"
 
   tags = {
     Name       = local.name
     Example    = local.name
-    Repository = "https://github.com/clowdhaus/terraform-aws-<TODO>"
+    Repository = "https://github.com/gpdenny/terraform-aws-teleport"
   }
 }
 
 ################################################################################
-# <TODO_EXPANDED> Module
+# Teleport Module
 ################################################################################
 
-module "<TODO_UNDER>_disabled" {
+module "teleport_disabled" {
   source = "../.."
 
   create = false
 }
 
-module "<TODO_UNDER>" {
+module "teleport" {
   source = "../.."
 
   create = false

@@ -1,3 +1,3 @@
-# Terraform AWS <TODO_EXPANDED> Examples
+# Terraform AWS Teleport Examples
 
-- [Complete](https://github.com/clowdhaus/terraform-aws-<TODO>/tree/main/examples/complete)
+- [Complete](https://github.com/gpdenny/terraform-aws-teleport/tree/main/examples/complete)
